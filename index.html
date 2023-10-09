@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alejandro Carvalho" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lista de Tarefas</title>
+  </head>
+  <body>
+    <main>
+      <div class="div-adicioneTarefa">
+        <h1 id="titulo" class="tituloAdicione">Adicione sua Tarefa</h1>
+        <div class="div-formulario">
+          <form id="formulario" class="form">
+            <input
+              id="input-text"
+              class="input-text"
+              type="text"
+              placeholder="Descreva sua tarefa"
+            />
+            <input
+              id="input-button"
+              class="input-button"
+              type="submit"
+              value="Adicionar Tarefa"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="div-tarefasFazer">
+        <h1 class="tituloFazer">Tarefas a Fazer</h1>
+        <div class="div-listaTarefas">
+          <ul id="lista-tarefa" class="lista-tarefa">
+            <!--Tarefas adicionadas aparecerão aqui-->
+          </ul>
+        </div>
+        <button id="button-limpar" class="button-limpar">Limpar lista de Tarefas</button>
+      </div>
+      <div class="div-tarefasConcluidas">
+        <h1 class="tituloConcluidas">Concluidas</h1>
+        <div class="div-listaConcluida">
+          <ul id="tarefasConcluidas" class="lista-de-Concluidos">
+            <!--Tarefas Concluídas aparecerão aqui-->
+          </ul>
+        </div>
+        <button id="botao-apaga-tudo" class="botaoApagar">Apagar tudo</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

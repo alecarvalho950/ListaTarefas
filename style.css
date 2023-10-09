@@ -1,0 +1,147 @@
+main{
+    background: rgb(255, 255, 255);
+    width: 450px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:solid 15px black;
+    border-radius:20px;
+}
+
+.div-adicioneTarefa{
+    width:380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    border:solid 5px black;
+    border-radius:15px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.tituloAdicione, .tituloFazer, .tituloConcluidas {
+    font:bold 25pt Arial;
+    color:#000000;
+    border:solid 5px #000000;
+    border-radius: 15px;
+    padding:5px;
+}
+
+.div-formulario{
+    width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    margin-bottom: 10px;
+    padding:15px;
+    border:solid 5px black;
+    border-radius:15px;
+}
+
+.input-text{
+    text-align: center;
+    width:300px;
+    height: 25px;
+    margin-bottom: 15px;
+    border:solid 5px black;
+    border-radius:15px;
+    background-color: rgb(255, 255, 255);
+    color:#000000;
+}
+
+.input-button {
+    width: 120px;
+    padding:8px;
+    border:solid 5px black;
+    border-radius:15px;
+    background: #05ad02;
+    color:#ffffff;
+}
+
+.div-tarefasFazer{
+    background: #ffffff;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:solid 5px rgb(0, 0, 0);
+    border-radius:15px;
+    margin-bottom: 10px;
+    width:380px;
+}
+
+.div-listaTarefas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.lista-tarefa{
+    color:#000000;
+    font: normal 13pt arial;
+}
+
+.lista-tarefa li, .lista-de-Concluidos li{
+    background: rgb(255, 255, 255);
+    padding:6px;
+    border:solid 5px rgb(0, 0, 0);
+    border-radius:15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista-tarefa li button{
+    background-color: #ff7300;
+    margin-left: 10px;
+    padding: 5px;
+    border:solid 3px rgb(0, 0, 0);
+    border-radius:15px;
+    color:#000000;
+   
+    
+}
+
+.button-limpar, .botaoApagar{
+    background: #ff7300;
+    color:#FFF;
+    padding:10px;
+    border:solid 5px rgb(0, 0, 0);
+    border-radius:15px;
+}
+
+.div-tarefasConcluidas{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 33px;
+    border:solid 5px rgb(0, 0, 0);
+    border-radius:15px;
+    margin-bottom: 10px;
+    width:340px;
+}
+
+.div-listaConcluida{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+   
+}
+
+.lista-de-Concluidos{
+    background: #ffffff;
+    padding: 8px;
+    width: 300px;
+    color:rgb(0, 0, 0);
+    font: normal 12pt Arial;
+}
+
+.lista-de-Concluidos li{
+    margin-top: 10px;
+}
