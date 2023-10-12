@@ -1,5 +1,5 @@
 main{
-    background: rgb(255, 255, 255);
+    background: #575a57;
     width: 450px;
     display:flex;
     flex-direction: column;
@@ -13,8 +13,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #FFF;
-    border:solid 5px black;
+    background: #08298A;
+    border:solid 5px rgb(255, 255, 255);
     border-radius:15px;
     padding: 15px;
     margin-bottom: 10px;
@@ -23,8 +23,8 @@ main{
 
 .tituloAdicione, .tituloFazer, .tituloConcluidas {
     font:bold 25pt Arial;
-    color:#000000;
-    border:solid 5px #000000;
+    color:#ffffff;
+    border:solid 5px #ffffff;
     border-radius: 15px;
     padding:5px;
 }
@@ -39,7 +39,7 @@ main{
 .form{
     margin-bottom: 10px;
     padding:25px;
-    border:solid 5px black;
+    border:solid 5px rgb(255, 255, 255);
     border-radius:15px;
 }
 
@@ -48,9 +48,9 @@ main{
     width:300px;
     height: 25px;
     margin-bottom: 15px;
-    border:solid 5px black;
+    border:solid 5px rgb(255, 255, 255);
     border-radius:15px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(210, 210, 210);
     color:#000000;
     font: normal 10pt arial;
 }
@@ -58,19 +58,19 @@ main{
 .input-button {
     width: 120px;
     padding:8px;
-    border:solid 5px black;
+    border:solid 5px rgb(255, 255, 255);
     border-radius:15px;
     background: #05ad02;
     color:#ffffff;
 }
 
 .div-tarefasFazer{
-    background: #ffffff;
+    background: #08298A;
     padding:15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border:solid 5px rgb(0, 0, 0);
+    border:solid 5px rgb(255, 255, 255);
     border-radius:15px;
     margin-bottom: 10px;
     width:380px;
@@ -85,13 +85,18 @@ main{
 
 .lista-tarefa{
     color:#000000;
-    font: normal 13pt arial;
+    font: bold 18pt arial;
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0px;
 }
 
 .lista-tarefa li, .lista-de-Concluidos li{
-    background: rgb(255, 255, 255);
+    background: rgb(197, 197, 195);
     padding:6px;
-    border:solid 5px rgb(0, 0, 0);
+    border:solid 5px rgb(255, 255, 0);
     border-radius:15px;
     margin-bottom: 10px;
     display: flex;
@@ -99,14 +104,14 @@ main{
     align-items: center;
 }
 
+
 .lista-tarefa li button{
     background-color: #ff7300;
     margin-left: 10px;
     padding: 5px;
-    border:solid 3px rgb(0, 0, 0);
+    border:solid 3px rgb(255, 255, 255);
     border-radius:15px;
-    color:#ffffff;
-   
+    color:#ffffff;  
     
 }
 
@@ -114,17 +119,17 @@ main{
     background: #ff7300;
     color:#FFF;
     padding:10px;
-    border:solid 5px rgb(0, 0, 0);
+    border:solid 5px rgb(255, 255, 255);
     border-radius:15px;
 }
 
 .div-tarefasConcluidas{
-    background: #ffffff;
+    background: #08298A;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 33px;
-    border:solid 5px rgb(0, 0, 0);
+    border:solid 5px rgb(255, 255, 255);
     border-radius:15px;
     margin-bottom: 10px;
     width:340px;
@@ -137,7 +142,7 @@ main{
 }
 
 .lista-de-Concluidos{
-    background: #ffffff;
+    background: #08298A;
     padding: 8px;
     width: 300px;
     color:rgb(0, 0, 0);
